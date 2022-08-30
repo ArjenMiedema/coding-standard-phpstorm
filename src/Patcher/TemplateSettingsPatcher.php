@@ -37,7 +37,6 @@ class TemplateSettingsPatcher implements ConfigPatcherInterface
         $this->xmlAccessor  = $xmlAccessor;
         $this->includePaths = [
             'M2-PHP-File-Header.php',
-            'M2-Settings.php',
             'M2-XML-File-Header.xml'
         ];
     }
@@ -158,7 +157,6 @@ class TemplateSettingsPatcher implements ConfigPatcherInterface
             ],
             'includes_templates' => [
                 'M2-PHP-File-Header.php',
-                'M2-Settings.php',
                 'M2-XML-File-Header.xml',
             ]
         ];

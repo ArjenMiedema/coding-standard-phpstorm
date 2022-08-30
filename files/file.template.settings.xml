@@ -21,7 +21,6 @@
     </default_templates>
     <includes_templates>
       <template name="M2-PHP-File-Header.php" reformat="true" live-template-enabled="true" />
-      <template name="M2-Settings.php" reformat="true" live-template-enabled="true" />
       <template name="M2-XML-File-Header.xml" reformat="true" live-template-enabled="true" />
     </includes_templates>
   </component>
